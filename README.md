@@ -1,5 +1,4 @@
 # Install
-```!pip install ecdsa
-!pip install requests
+```pip install ecdsa and pip install requests
 
 #Run: python Pollard_Kangaroo.py
