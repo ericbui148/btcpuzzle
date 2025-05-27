@@ -4,8 +4,8 @@ import requests
 from ecdsa import SECP256k1
 from ecdsa.ellipticcurve import Point
 # Thông tin Telegram và Public Key
-TELEGRAM_BOT_TOKEN = "8078142818:AAHX1fS2CAfPNgpzO2g5GmfRc4UPpmgXJXw"
-TELEGRAM_CHAT_ID = "-1002574999373"
+TELEGRAM_BOT_TOKEN = "xxxxxxxxxxxx"
+TELEGRAM_CHAT_ID = "xxxxxxxxx"
 # Hàm gửi tin nhắn tới Telegram
 def send_telegram_message(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
